@@ -23,7 +23,7 @@ yargs(hideBin(process.argv))
     async (argv) => {
       const tags = argv.tags ? argv.tags.split(",") : [];
       const note = await newNote(argv.note, tags);
-      console.log("Note added!", note.id);
+      console.log("Note added!", note);
     }
   )
   .option("tags", {
@@ -79,7 +79,7 @@ yargs(hideBin(process.argv))
     (yargs) => {
       return yargs.positional("port", {
         describe: "port to bind on",
-        default: 5000,
+        default: 3000,
         type: "number",
       });
     },

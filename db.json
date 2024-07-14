@@ -1,3 +1,28 @@
 {
-  "notes": []
+  "notes": [
+    {
+      "tags": [
+        "work",
+        " serious"
+      ],
+      "content": "clean my room",
+      "id": 1720946413485
+    },
+    {
+      "tags": [
+        "work",
+        " serious"
+      ],
+      "content": "do shopping",
+      "id": 1720946462286
+    },
+    {
+      "tags": [
+        "work",
+        " serious"
+      ],
+      "content": "go gym",
+      "id": 1720946475057
+    }
+  ]
 }
